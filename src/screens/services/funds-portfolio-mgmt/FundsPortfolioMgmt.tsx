@@ -7,7 +7,7 @@ import image5 from "../../../assets/fundmgmt5.svg";
 import image6 from "../../../assets/fundmgmt6.svg";
 import image7 from "../../../assets/fundmgmt7.svg";
 import image8 from "../../../assets/fundmgmt8.svg";
-// import image9 from "../../../assets/fundmgmt9.svg";
+import image9 from "../../../assets/fundmgmt9.svg";
 import ic1 from "../../../assets/fundmgmt-ic1.svg";
 import ic2 from "../../../assets/fundmgmt-ic2.svg";
 import ic3 from "../../../assets/fundmgmt-ic3.svg";
@@ -222,7 +222,7 @@ compliant returns in adherence to`,
         <div className="flex flex-col items-center">
           <div
             className="w-full h-full p-5 sm:w-[45vw] sm:h-80 sm:p-10 bg-cover bg-center flex flex-col items-center justify-center rounded-lg"
-            style={{ backgroundImage: `url(${image1})` }}
+            style={{ backgroundImage: `url(${image9})` }}
           >
             <p className="text-[30px] text-center text-white font-bold pb-2">
               Why Invest with Smooth Capital?

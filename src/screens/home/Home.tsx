@@ -18,8 +18,8 @@ import ic1 from "../../assets/home-ic1.svg";
 import ic2 from "../../assets/home-ic2.svg";
 import ic3 from "../../assets/home-ic3.svg";
 import ic4 from "../../assets/home-ic4.svg";
-import ic5 from "../../assets/home-ic4.svg";
-import ic6 from "../../assets/home-ic4.svg";
+import ic5 from "../../assets/home-ic5.svg";
+import ic6 from "../../assets/home-ic6.svg";
 import OurInvestmentSolutionsCard from "../../components/our-investment-solutions-card/OurInvestmentSolutionsCard";
 import CarouselComponent from "../../components/carousel-component/CarouselComponent";
 

@@ -1,4 +1,4 @@
-import type { ReactNode } from "react";
+import type { Dispatch, ReactNode, SetStateAction } from "react";
 
 /**************** App Wrapper ******************* */
 
@@ -104,7 +104,7 @@ export type ServicesProcessCardType = {
 
 export type ServicesProcessCardProps = {
   item: ServicesProcessCardType;
-  color?: string
+  color?: string;
 };
 
 /**************** our services card ******************* */
@@ -142,7 +142,7 @@ export type OurInvestmentSolutionsCardType = {
   image: string;
   title: string;
   description: string;
-  routeTo: string
+  routeTo: string;
 };
 
 export type OurInvestmentSolutionsCardProps = {
@@ -155,6 +155,36 @@ export type CarouselComponentType = {
   image: string;
 };
 
-export type CarouselComponentTypeProps = {
+export type CarouselComponentProps = {
   slideImages: CarouselComponentType[];
+};
+
+/**************** Our teams components ******************* */
+
+export type OurTeamsType = {
+  image: string;
+  name: string;
+  position: string;
+  short_description: string;
+  long_description: string;
+};
+
+export type BoardOfDirectorsCardProps = {
+  idx: number;
+  item: OurTeamsType;
+};
+
+export type TeamManagementCardProps = {
+  item: OurTeamsType;
+};
+
+export type InfoCardProps = {
+  item: OurTeamsType;
+  setIsOpenModal: Dispatch<SetStateAction<boolean>>
+};
+
+export type ModalInfoCardProps = {
+  isOpen: boolean;
+  closeModal: () => void;
+  item: OurTeamsType;
 };

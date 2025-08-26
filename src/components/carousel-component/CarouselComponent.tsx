@@ -1,8 +1,8 @@
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
-import type { CarouselComponentTypeProps } from "../../types/appTypes";
+import type { CarouselComponentProps } from "../../types/appTypes";
 
-const CarouselComponent = ({ slideImages }: CarouselComponentTypeProps) => {
+const CarouselComponent = ({ slideImages }: CarouselComponentProps) => {
   return (
     <div className="w-full relative">
       <Carousel

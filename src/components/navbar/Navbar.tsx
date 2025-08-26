@@ -16,7 +16,7 @@ const Navbar = () => {
   const [isOpenMenuNavbar, setIsOpenMenuNavbar] = useState(false);
 
   return (
-    <div className="fixed top-0 left-0 right-0 bg-custom-white py-3 z-50">
+    <div className="fixed top-0 left-0 right-0 bg-custom-white py-3 z-10">
       <AppWrapper className="flex items-center justify-between">
         <img
           src={smooth_capital_logo}
