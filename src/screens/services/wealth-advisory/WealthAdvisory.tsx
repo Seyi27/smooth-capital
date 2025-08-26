@@ -1,5 +1,5 @@
-import image3 from "../../../assets/fundMgmt5.svg";
-import image4 from "../../../assets/fundMgmt6.svg";
+import image3 from "../../../assets/fundmgmt5.svg";
+import image4 from "../../../assets/fundmgmt6.svg";
 import bgLinePatterns from "../../../assets/line-patterns.png";
 import partner_with_us from "../../../assets/partner-with-us.jpg";
 import image1 from "../../../assets/wealth1.svg";
