@@ -7,7 +7,7 @@ import image5 from "../../../assets/fundmgmt5.svg";
 import image6 from "../../../assets/fundmgmt6.svg";
 import image7 from "../../../assets/fundmgmt7.svg";
 import image8 from "../../../assets/fundmgmt8.svg";
-import image9 from "../../../assets/fundmgmt10.svg";
+import image9 from "../../../assets/fundmgmt9.svg";
 import ic1 from "../../../assets/fundmgmt-ic1.svg";
 import ic2 from "../../../assets/fundmgmt-ic2.svg";
 import ic3 from "../../../assets/fundmgmt-ic3.svg";
