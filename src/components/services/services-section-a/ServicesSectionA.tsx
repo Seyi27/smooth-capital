@@ -1,4 +1,3 @@
-import React from "react";
 import type { ServicesSectionAProps } from "../../../types/appTypes";
 
 const ServicesSectionA = ({

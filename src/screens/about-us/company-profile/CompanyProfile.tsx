@@ -1,4 +1,3 @@
-import React from "react";
 import bgLinePatterns from "../../../assets/line-patterns.png";
 import AppWrapper from "../../../components/app-wrapper/AppWrapper";
 import about_smooth_capital from "../../../assets/about-smooth-capital.svg";
