@@ -77,6 +77,7 @@ const WealthAdvisory = () => {
         </AppWrapper>
       </div>
 
+
       {/* Our Wealth Advisory Approach */}
       <AppWrapper className="pb-15">
         <div className="text-center">
