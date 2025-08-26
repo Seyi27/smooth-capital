@@ -8,7 +8,7 @@ import williams from "../../../assets/williams.svg";
 import person_3 from "../../../assets/person-3.svg";
 import person_4 from "../../../assets/person-4.svg";
 import CustomButton from "../../../components/custom-button/CustomButton";
-import joinOurTeam from "../../../assets/join-our-team.jpg";
+import joinOurTeam from "../../../assets/join-our-team.svg";
 import { BsChevronRight } from "react-icons/bs";
 import mgmt_person_1 from "../../../assets/mgmt-person-1.svg";
 import mgmt_person_2 from "../../../assets/mgmt-person-2.svg";
