@@ -1,4 +1,3 @@
-import React from "react";
 import stat1 from "../../assets/stat1.svg";
 import stat2 from "../../assets/stat2.svg";
 import stat3 from "../../assets/stat3.svg";

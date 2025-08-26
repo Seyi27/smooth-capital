@@ -1,4 +1,3 @@
-import React from "react";
 import type { ServicesPortfolioCardProps } from "../../../types/appTypes";
 
 const ServicesPortfolioCard = ({ item }: ServicesPortfolioCardProps) => {

@@ -1,7 +1,7 @@
-import React from "react";
-import AppWrapper from "../../../components/app-wrapper/AppWrapper";
-import ServicesSectionA from "../../../components/services/services-section-a/ServicesSectionA";
-import bgLinePatterns from "../../../assets/line-patterns.png";
+import { BsCheck2Circle } from "react-icons/bs";
+import ic2 from "../../../assets/business-ic1.svg";
+import ic3 from "../../../assets/business-ic2.svg";
+import ic4 from "../../../assets/business-ic3.svg";
 import image1 from "../../../assets/business1.svg";
 import image2 from "../../../assets/business2.svg";
 import image3 from "../../../assets/business3.svg";
@@ -11,16 +11,15 @@ import image6 from "../../../assets/business6.svg";
 import image7 from "../../../assets/business7.svg";
 import image8 from "../../../assets/business8.svg";
 import ic1 from "../../../assets/fundmgmt-ic1.svg";
-import ic2 from "../../../assets/business-ic1.svg";
-import ic3 from "../../../assets/business-ic2.svg";
-import ic4 from "../../../assets/business-ic3.svg";
-import ServicesSectionB from "../../../components/services/services-section-b/ServicesSectionB";
-import ServicesQualitiesCard from "../../../components/services/services-qualities-card/ServicesQualitiesCard";
-import Testimonial from "../../../components/testimonial/Testimonial";
-import ScheduleAConsultation from "../../../components/schedule-a-consultation/ScheduleAConsultation";
+import bgLinePatterns from "../../../assets/line-patterns.png";
 import partner_with_us from "../../../assets/partner-with-us.jpg";
+import AppWrapper from "../../../components/app-wrapper/AppWrapper";
+import ScheduleAConsultation from "../../../components/schedule-a-consultation/ScheduleAConsultation";
 import OurServicesCard from "../../../components/services/our-services-card/OurServicesCard";
-import { BsCheck2Circle } from "react-icons/bs";
+import ServicesQualitiesCard from "../../../components/services/services-qualities-card/ServicesQualitiesCard";
+import ServicesSectionA from "../../../components/services/services-section-a/ServicesSectionA";
+import ServicesSectionB from "../../../components/services/services-section-b/ServicesSectionB";
+import Testimonial from "../../../components/testimonial/Testimonial";
 
 const BusinessIncubation = () => {
   const otherParagraphs = [

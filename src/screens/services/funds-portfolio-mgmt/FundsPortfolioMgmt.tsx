@@ -1,6 +1,4 @@
-import React from "react";
-import AppWrapper from "../../../components/app-wrapper/AppWrapper";
-import ServicesSectionA from "../../../components/services/services-section-a/ServicesSectionA";
+import { BsCheck2Circle } from "react-icons/bs";
 import image1 from "../../../assets/fundMgmt1.svg";
 import image2 from "../../../assets/fundMgmt2.svg";
 import image3 from "../../../assets/fundMgmt3.svg";
@@ -14,15 +12,16 @@ import ic1 from "../../../assets/fundmgmt-ic1.svg";
 import ic2 from "../../../assets/fundmgmt-ic2.svg";
 import ic3 from "../../../assets/fundmgmt-ic3.svg";
 import ic4 from "../../../assets/fundmgmt-ic4.svg";
-import ServicesSectionB from "../../../components/services/services-section-b/ServicesSectionB";
 import bgLinePatterns from "../../../assets/line-patterns.png";
-import ServicesQualitiesCard from "../../../components/services/services-qualities-card/ServicesQualitiesCard";
-import ServicesPortfolioCard from "../../../components/services/services-portfolio-card/ServicesPortfolioCard";
 import partner_with_us from "../../../assets/partner-with-us.jpg";
+import AppWrapper from "../../../components/app-wrapper/AppWrapper";
 import ScheduleAConsultation from "../../../components/schedule-a-consultation/ScheduleAConsultation";
-import Testimonial from "../../../components/testimonial/Testimonial";
+import ServicesPortfolioCard from "../../../components/services/services-portfolio-card/ServicesPortfolioCard";
 import ServicesProcessCard from "../../../components/services/services-process-card/ServicesProcessCard";
-import { BsCheck2Circle } from "react-icons/bs";
+import ServicesQualitiesCard from "../../../components/services/services-qualities-card/ServicesQualitiesCard";
+import ServicesSectionA from "../../../components/services/services-section-a/ServicesSectionA";
+import ServicesSectionB from "../../../components/services/services-section-b/ServicesSectionB";
+import Testimonial from "../../../components/testimonial/Testimonial";
 
 const FundsPortfolioMgmt = () => {
   const otherParagraphs = [

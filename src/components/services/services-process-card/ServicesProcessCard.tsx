@@ -1,4 +1,3 @@
-import React from "react";
 import type { ServicesProcessCardProps } from "../../../types/appTypes";
 
 const ServicesProcessCard = ({ item, color }: ServicesProcessCardProps) => {

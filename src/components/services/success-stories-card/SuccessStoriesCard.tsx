@@ -1,4 +1,3 @@
-import React from "react";
 import type { SuccessStoriesCardProps } from "../../../types/appTypes";
 
 const SuccessStoriesCard = ({ item }: SuccessStoriesCardProps) => {

@@ -1,13 +1,13 @@
-import React, { useState } from "react";
-import AppWrapper from "../../../components/app-wrapper/AppWrapper";
-import bgLinePatterns from "../../../assets/line-patterns.png";
-import careers_img from "../../../assets/careers.svg";
+import { useState } from "react";
 import careers_ic from "../../../assets/career-ic.svg";
+import careers_img from "../../../assets/careers.svg";
 import current_openings from "../../../assets/current-openings.svg";
+import bgLinePatterns from "../../../assets/line-patterns.png";
+import AppWrapper from "../../../components/app-wrapper/AppWrapper";
 import CustomButton from "../../../components/custom-button/CustomButton";
 
 const Careers = () => {
-  const [currentOpenings, setCurrentOpenings] = useState({
+  const [currentOpenings] = useState({
     fullName: "",
     email: "",
     phone: "",

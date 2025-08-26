@@ -1,16 +1,15 @@
-import React from "react";
-import bgLinePatterns from "../../../assets/line-patterns.png";
-import AppWrapper from "../../../components/app-wrapper/AppWrapper";
-import ServicesSectionA from "../../../components/services/services-section-a/ServicesSectionA";
-import image1 from "../../../assets/wealth1.svg";
-import image2 from "../../../assets/wealth2.svg";
 import image3 from "../../../assets/fundMgmt5.svg";
 import image4 from "../../../assets/fundMgmt6.svg";
-import image5 from "../../../assets/wealth3.svg";
-import ServicesQualitiesCard from "../../../components/services/services-qualities-card/ServicesQualitiesCard";
-import ServicesProcessCard from "../../../components/services/services-process-card/ServicesProcessCard";
-import ScheduleAConsultation from "../../../components/schedule-a-consultation/ScheduleAConsultation";
+import bgLinePatterns from "../../../assets/line-patterns.png";
 import partner_with_us from "../../../assets/partner-with-us.jpg";
+import image1 from "../../../assets/wealth1.svg";
+import image2 from "../../../assets/wealth2.svg";
+import image5 from "../../../assets/wealth3.svg";
+import AppWrapper from "../../../components/app-wrapper/AppWrapper";
+import ScheduleAConsultation from "../../../components/schedule-a-consultation/ScheduleAConsultation";
+import ServicesProcessCard from "../../../components/services/services-process-card/ServicesProcessCard";
+import ServicesQualitiesCard from "../../../components/services/services-qualities-card/ServicesQualitiesCard";
+import ServicesSectionA from "../../../components/services/services-section-a/ServicesSectionA";
 
 const WealthAdvisory = () => {
   const OurWealthAdvisoryApproach = [

@@ -1,7 +1,6 @@
-import React from "react";
-import CustomButton from "../custom-button/CustomButton";
-import type { ScheduleAConsultationProp } from "../../types/appTypes";
 import { useNavigate } from "react-router-dom";
+import type { ScheduleAConsultationProp } from "../../types/appTypes";
+import CustomButton from "../custom-button/CustomButton";
 
 const ScheduleAConsultation = ({
   image,

@@ -1,6 +1,5 @@
-import React from "react";
-import type { OurInvestmentSolutionsCardProps } from "../../types/appTypes";
 import { useNavigate } from "react-router-dom";
+import type { OurInvestmentSolutionsCardProps } from "../../types/appTypes";
 
 const OurInvestmentSolutionsCard = ({
   item,

@@ -1,18 +1,17 @@
-import React from "react";
-import bgLinePatterns from "../../assets/line-patterns.png";
-import AppWrapper from "../app-wrapper/AppWrapper";
+import { BsFacebook, BsInstagram, BsTwitterX, BsYoutube } from "react-icons/bs";
+import getintouch_ic1 from "../../assets/getintouch-ic1.svg";
+import getintouch_ic2 from "../../assets/getintouch-ic2.svg";
+import getintouch_ic3 from "../../assets/getintouch-ic3.svg";
 import getintouch1 from "../../assets/getintouch1.svg";
 import getintouch2 from "../../assets/getintouch2.svg";
 import getintouch3 from "../../assets/getintouch3.svg";
 import getintouch4 from "../../assets/getintouch4.svg";
 import getintouch5 from "../../assets/getintouch5.svg";
 import getintouch6 from "../../assets/getintouch6.svg";
-import CustomButton from "../custom-button/CustomButton";
-import getintouch_ic1 from "../../assets/getintouch-ic1.svg";
-import getintouch_ic2 from "../../assets/getintouch-ic2.svg";
-import getintouch_ic3 from "../../assets/getintouch-ic3.svg";
-import { BsFacebook, BsInstagram, BsTwitterX, BsYoutube } from "react-icons/bs";
+import bgLinePatterns from "../../assets/line-patterns.png";
+import AppWrapper from "../app-wrapper/AppWrapper";
 import CarouselComponent from "../carousel-component/CarouselComponent";
+import CustomButton from "../custom-button/CustomButton";
 
 const GetInTouch = () => {
   const slideImages = [

@@ -1,6 +1,5 @@
-import React from "react";
-import type { OurServicesCardProps } from "../../../types/appTypes";
 import { BsCheck2Circle } from "react-icons/bs";
+import type { OurServicesCardProps } from "../../../types/appTypes";
 
 const OurServicesCard = ({ item, screen }: OurServicesCardProps) => {
   let listHeader;

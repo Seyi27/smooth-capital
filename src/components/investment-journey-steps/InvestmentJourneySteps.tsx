@@ -1,6 +1,6 @@
-import React, { useState } from "react";
-import ChooseInvestment from "./ChooseInvestment";
+import { useState } from "react";
 import AmountAndDuration from "./AmountAndDuration";
+import ChooseInvestment from "./ChooseInvestment";
 import Confirmation from "./Confirmation";
 
 const InvestmentJourneySteps = () => {

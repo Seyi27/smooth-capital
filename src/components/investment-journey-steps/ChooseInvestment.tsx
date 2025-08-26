@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { BsChevronDown } from "react-icons/bs";
 import CustomButton from "../custom-button/CustomButton";
 

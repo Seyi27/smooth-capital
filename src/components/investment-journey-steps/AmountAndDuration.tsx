@@ -1,4 +1,3 @@
-import React from "react";
 import CustomButton from "../custom-button/CustomButton";
 
 const AmountAndDuration = ({ isActive }: { isActive: boolean }) => {

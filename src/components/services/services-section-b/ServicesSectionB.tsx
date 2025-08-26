@@ -1,7 +1,4 @@
-import React from "react";
 import type { ServicesSectionBProps } from "../../../types/appTypes";
-import fundmgmt3 from "../../../assets/fundmgmt3.svg";
-import fundmgmt4 from "../../../assets/fundmgmt4.svg";
 
 const ServicesSectionB = ({
   headerText,

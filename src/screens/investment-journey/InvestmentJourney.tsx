@@ -1,10 +1,9 @@
-import React from "react";
-import AppWrapper from "../../components/app-wrapper/AppWrapper";
-import Testimonial from "../../components/testimonial/Testimonial";
-import ScheduleAConsultation from "../../components/schedule-a-consultation/ScheduleAConsultation";
-import partner_with_us from "../../assets/partner-with-us.jpg";
 import bgLinePatterns from "../../assets/line-patterns.png";
+import partner_with_us from "../../assets/partner-with-us.jpg";
+import AppWrapper from "../../components/app-wrapper/AppWrapper";
 import InvestmentJourneySteps from "../../components/investment-journey-steps/InvestmentJourneySteps";
+import ScheduleAConsultation from "../../components/schedule-a-consultation/ScheduleAConsultation";
+import Testimonial from "../../components/testimonial/Testimonial";
 
 const InvestmentJourney = () => {
   return (

@@ -1,7 +1,6 @@
-import React from "react";
-import AppWrapper from "../../../components/app-wrapper/AppWrapper";
-import ServicesSectionA from "../../../components/services/services-section-a/ServicesSectionA";
-import bgLinePatterns from "../../../assets/line-patterns.png";
+import ic1 from "../../../assets/business-ic2.svg";
+import ic4 from "../../../assets/debit-capiltal-ic2.svg";
+import ic2 from "../../../assets/debit-capital-ic1.svg";
 import image1 from "../../../assets/debt-capital1.svg";
 import image2 from "../../../assets/debt-capital2.svg";
 import image3 from "../../../assets/debt-capital3.svg";
@@ -10,16 +9,16 @@ import image5 from "../../../assets/debt-capital5.svg";
 import image6 from "../../../assets/debt-capital6.svg";
 import image7 from "../../../assets/debt-capital7.svg";
 import image8 from "../../../assets/debt-capital8.svg";
-import ic1 from "../../../assets/business-ic2.svg";
-import ic2 from "../../../assets/debit-capital-ic1.svg";
 import ic3 from "../../../assets/fundmgmt-ic3.svg";
-import ic4 from "../../../assets/debit-capiltal-ic2.svg";
+import bgLinePatterns from "../../../assets/line-patterns.png";
 import partner_with_us from "../../../assets/partner-with-us.jpg";
-import ServicesSectionB from "../../../components/services/services-section-b/ServicesSectionB";
-import ServicesQualitiesCard from "../../../components/services/services-qualities-card/ServicesQualitiesCard";
-import OurServicesCard from "../../../components/services/our-services-card/OurServicesCard";
+import AppWrapper from "../../../components/app-wrapper/AppWrapper";
 import ScheduleAConsultation from "../../../components/schedule-a-consultation/ScheduleAConsultation";
+import OurServicesCard from "../../../components/services/our-services-card/OurServicesCard";
 import ServicesProcessCard from "../../../components/services/services-process-card/ServicesProcessCard";
+import ServicesQualitiesCard from "../../../components/services/services-qualities-card/ServicesQualitiesCard";
+import ServicesSectionA from "../../../components/services/services-section-a/ServicesSectionA";
+import ServicesSectionB from "../../../components/services/services-section-b/ServicesSectionB";
 import SuccessStoriesCard from "../../../components/services/success-stories-card/SuccessStoriesCard";
 
 const DebtCapitalAdvisory = () => {

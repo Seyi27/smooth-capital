@@ -1,13 +1,12 @@
-import React from "react";
-import AppWrapper from "../../components/app-wrapper/AppWrapper";
-import ScheduleAConsultation from "../../components/schedule-a-consultation/ScheduleAConsultation";
-import partner_with_us from "../../assets/partner-with-us.jpg";
-import ServicesProcessCard from "../../components/services/services-process-card/ServicesProcessCard";
-import microfinance_banking from "../../assets/microfinance-banking.svg";
 import finance_leasing from "../../assets/finance-leasing.svg";
 import insurance_broking from "../../assets/insurance-broking.svg";
 import investments from "../../assets/investments.svg";
+import microfinance_banking from "../../assets/microfinance-banking.svg";
+import partner_with_us from "../../assets/partner-with-us.jpg";
+import AppWrapper from "../../components/app-wrapper/AppWrapper";
 import EcosystemStatistics from "../../components/ecosystem-statistics/EcosystemStatistics";
+import ScheduleAConsultation from "../../components/schedule-a-consultation/ScheduleAConsultation";
+import ServicesProcessCard from "../../components/services/services-process-card/ServicesProcessCard";
 
 const AddosserEcosystem = () => {
   const howWeWorkTogether = [

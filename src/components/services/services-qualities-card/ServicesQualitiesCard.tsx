@@ -1,4 +1,3 @@
-import React from "react";
 import type { ServicesQualitiesCardProps } from "../../../types/appTypes";
 
 const ServicesQualitiesCard = ({ item }: ServicesQualitiesCardProps) => {

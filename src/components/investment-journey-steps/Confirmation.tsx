@@ -1,4 +1,3 @@
-import React from 'react'
 
 const Confirmation = ({ isActive }: { isActive: boolean }) => {
       if (!isActive) return null;
