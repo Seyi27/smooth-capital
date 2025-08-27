@@ -101,7 +101,7 @@ const Navbar = () => {
             </div>
 
             {/* Dropdown */}
-            <div className="absolute left-0 mt-2 w-60 rounded-lg bg-white shadow-lg opacity-0 invisible group-hover:visible group-hover:opacity-100 group-hover:translate-y-1 transition-all duration-500 ease-out">
+            <div className="absolute left-0 mt-2 w-70 rounded-lg bg-white shadow-lg opacity-0 invisible group-hover:visible group-hover:opacity-100 group-hover:translate-y-1 transition-all duration-500 ease-out">
               <NavLink
                 to="/services/funds-portfolio-management"
                 className="block px-4 py-3 text-sm text-gray-700 hover:bg-gray-100"
