@@ -8,20 +8,20 @@ const TeamManagementCard = ({ item }: TeamManagementCardProps) => {
 
   return (
     <>
-      <div className="flex flex-col h-full sm:flex-row gap-3 text-[12px] font-medium h-[250px]">
-        <img src={item.image} />
+      <div
+        className="flex flex-col h-full sm:flex-row gap-3 text-[12px] font-medium h-[250px] cursor-pointer"
+        onClick={() => setIsOpenModal(true)}
+      >
+        <img src={item.image} className="h-70" />
         <div className="flex flex-col">
-          <p className="text-[16px] text-black font-bold">{item.name}</p>
-          <p className="text-custom-grey">{item.position}</p>
+          <p className="text-[20px] text-black font-bold">{item.name}</p>
+          <p className="text-custom-grey text-[15px]">{item.position}</p>
 
-          <span className="text-custom-grey flex-1 py-2">
+          <span className="text-custom-grey py-2 text-[15px] mb-5">
             {item.short_description}
           </span>
 
-          <p
-            className="flex items-center gap-2 text-custom-blue text-[12px] font-medium cursor-pointer"
-            onClick={() => setIsOpenModal(true)}
-          >
+          <p className="flex items-center gap-2 text-custom-blue text-[15px] font-medium">
             Learn more <BsChevronRight size={12} />
           </p>
         </div>

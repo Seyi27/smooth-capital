@@ -7,7 +7,8 @@ const CarouselComponent = ({ slideImages }: CarouselComponentProps) => {
     <div className="w-full relative">
       <Carousel
         autoPlay
-        interval={3000}
+        interval={7000}
+        transitionTime={5000}
         infiniteLoop
         showIndicators={false}
         showArrows={false}

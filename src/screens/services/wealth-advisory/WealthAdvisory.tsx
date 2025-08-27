@@ -81,10 +81,10 @@ const WealthAdvisory = () => {
       {/* Our Wealth Advisory Approach */}
       <AppWrapper className="pb-15">
         <div className="text-center">
-          <p className="text-[30px] text-custom-blue font-bold">
+          <p className="text-[50px] text-custom-blue font-bold">
             Our Wealth Advisory Approach
           </p>
-          <p className="text-[14px] text-custom-grey">
+          <p className="text-[16px] text-custom-grey">
             We follow a disciplined, four-step approach to managing your
             portfolio.
           </p>
@@ -110,10 +110,10 @@ const WealthAdvisory = () => {
       {/* Why Choose Our Wealth Advisory */}
       <AppWrapper wrapperbgcolor="bg-custom-white" className="py-15">
         <div className="text-center">
-          <p className="text-[30px] text-custom-blue">
+          <p className="text-[50px] text-custom-blue">
             Why Choose Our <span className="font-bold">Wealth Advisory</span>
           </p>
-          <p className="text-[14px] text-custom-grey">
+          <p className="text-[16px] text-custom-grey">
             We follow a disciplined, four-step approach to managing your
             portfolio.
           </p>

@@ -7,15 +7,15 @@ const EcosystemStatistics = ({ screen }: { screen?: string }) => {
   return (
     <div className="flex flex-col items-center">
       {screen === "home" && (
-        <span className="text-[14px] font-bold p-2 border-1 border-custom-grey rounded-[30px]">
+        <span className="text-[18px] font-bold p-2 border-[0.5px] border-custom-grey rounded-[30px]">
           STATS
         </span>
       )}
       <div className="text-center">
-        <p className="text-[30px] text-custom-blue">
-          Ecosystem <span className="font-bold">Statistics</span>
+        <p className="text-[50px] ">
+          <span className="font-medium">Ecosystem</span> <span className="text-custom-blue font-bold">Statistics</span>
         </p>
-        <p className="text-[14px] text-custom-grey">
+        <p className="text-[16px] text-custom-grey">
           Our group's performance metrics highlight our growth and impact in the
           Nigerian financial services sector.
         </p>

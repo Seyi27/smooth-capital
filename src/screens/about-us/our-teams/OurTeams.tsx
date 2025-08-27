@@ -148,10 +148,10 @@ A firm believer in building wealth through smart, strategic investing, Kayode is
 
       {/* The People Behind Our Success */}
       <AppWrapper wrapperbgcolor="bg-custom-light-purple" className="py-15">
-        <p className="text-[30px] text-center font-medium">
+        <p className="text-[50px] text-center font-medium">
           The People Behind Our Success
         </p>
-        <p className="text-[20px] text-center font-medium">
+        <p className="text-[35px] text-center font-medium">
           Board of Directors
         </p>
 
@@ -165,7 +165,7 @@ A firm believer in building wealth through smart, strategic investing, Kayode is
 
       {/* Management Team */}
       <AppWrapper className="my-10">
-        <p className="text-[35px] text-center font-medium">Management Team</p>
+        <p className="text-[50px] text-center font-medium">Management Team</p>
 
         <div className="py-10">
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-10">

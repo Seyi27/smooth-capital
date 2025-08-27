@@ -37,12 +37,12 @@ const GetInTouch = () => {
           <div className="flex flex-col items-center justify-between gap-10">
             <div className="flex flex-col sm:flex-row sm:items-center justify-center gap-5">
               <div className="flex-1">
-                <span className="text-[60px] text-white bg-custom-blue pb-3 ">
+                <span className="text-[80px] text-white bg-custom-blue pb-3 ">
                   Get in Touch
                 </span>
               </div>
 
-              <p className="flex-1 text-[14px] text-custom-grey">
+              <p className="flex-1 text-[20px] text-custom-grey">
                 Have questions about our services? Ready to start your
                 investment journey? Contact our team for personalized
                 assistance.

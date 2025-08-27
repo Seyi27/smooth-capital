@@ -64,7 +64,7 @@ const Footer = () => {
                   {item.name}
                 </p>
               ))}
-              <p className="cursor-pointer">FAQS</p>
+              {/* <p className="cursor-pointer">FAQS</p> */}
             </div>
 
             <div className="flex flex-col gap-2 text-[14px] text-custom-semi-white">
@@ -124,7 +124,7 @@ const Footer = () => {
                   {item.name}
                 </p>
               ))}
-              <p className="cursor-pointer">FAQS</p>
+              {/* <p className="cursor-pointer">FAQS</p> */}
             </div>
 
             <div className="flex flex-col gap-2 text-[14px] text-custom-semi-white">

@@ -9,7 +9,7 @@ const ModalInfoCard = ({ isOpen, closeModal, item }: ModalInfoCardProps) => {
     >
       {/* Modal Content */}
       <div
-        className="bg-white rounded-lg shadow-lg p-6 w-[90%] max-w-md sm:max-w-lg md:max-w-xl lg:max-w-lg xl:max-w-md max-h-[90vh] overflow-y-auto"
+        className="bg-white rounded-lg shadow-lg p-6 w-[90%] sm:w-[600px]  max-h-[90vh] overflow-y-auto"
         onClick={(e) => e.stopPropagation()} // prevent closing when clicking inside
       >
         <div className="flex flex-col h-full sm:flex-row gap-3 text-[12px] font-medium h-[250px]">

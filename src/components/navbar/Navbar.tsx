@@ -24,7 +24,7 @@ const Navbar = () => {
           className="cursor-pointer"
         />
 
-        <div className="hidden sm:flex items-center gap-5">
+        <div className="hidden sm:flex items-center gap-12">
           <NavLink
             to={"/"}
             className={({ isActive }) =>

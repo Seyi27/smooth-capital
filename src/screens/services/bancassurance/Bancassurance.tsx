@@ -200,10 +200,10 @@ accidents, theft, and third-party liability.`,
       {/* Insurance Products */}
       <AppWrapper wrapperbgcolor="bg-custom-white" className="py-15">
         <div className="text-center">
-          <p className="text-[30px] text-custom-purple font-bold">
+          <p className="text-[50px] text-custom-purple font-bold">
             Insurance Products
           </p>
-          <p className="text-[14px] text-custom-grey">
+          <p className="text-[16px] text-custom-grey">
             We offer a comprehensive range of insurance solutions to address
             your protection needs.
           </p>
@@ -219,10 +219,10 @@ accidents, theft, and third-party liability.`,
       {/* Our Process */}
       <AppWrapper wrapperbgcolor="bg-custom-white" className="py-10">
         <div className="text-center">
-          <p className="text-[30px] text-custom-blue">
+          <p className="text-[50px] text-custom-blue">
             Our <span className="font-bold">Process</span>
           </p>
-          <p className="text-[14px] text-custom-grey">
+          <p className="text-[16px] text-custom-grey">
             We follow a disciplined, four-step approach to managing your
             portfolio.
           </p>
@@ -238,10 +238,10 @@ accidents, theft, and third-party liability.`,
       {/* Protect What Matters Most */}
       <AppWrapper className="my-15">
         <div className="text-center">
-          <p className="text-[30px] text-custom-purple font-bold">
+          <p className="text-[50px] text-custom-purple font-bold">
             Our Insurance Partners
           </p>
-          <p className="text-[14px] text-custom-grey">
+          <p className="text-[16px] text-custom-grey">
             We collaborate with top-rated insurance providers to offer you the
             best coverage options.
           </p>

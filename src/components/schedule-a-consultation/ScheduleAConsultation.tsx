@@ -12,17 +12,17 @@ const ScheduleAConsultation = ({
   return (
     <div className="flex justify-center">
       <div
-        className="w-full sm:w-200 h-80 p-10 bg-cover bg-center flex flex-col items-center justify-center rounded-lg"
+        className="w-full sm:w-220 h-100 p-10 bg-cover bg-center flex flex-col items-center justify-center rounded-[25px]"
         style={{ backgroundImage: `url(${image})` }}
       >
-        <p className="text-[30px] text-center text-white font-bold">{title}</p>
-        <p className="text-[12px] text-white text-center pb-3">{body}</p>
+        <p className="text-[40px] text-center text-white font-bold">{title}</p>
+        <p className="text-[16px] text-white text-center pb-3">{body}</p>
         <CustomButton
           label={buttonName}
-          width={"170px"}
-          height={"40px"}
+          width={"200px"}
+          height={"50px"}
           bgColor={"#28098A"}
-          fontSize={12}
+          fontSize={14}
           fontWeight={600}
           textColor={"white"}
           borderRadius={"20px"}

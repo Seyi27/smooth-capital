@@ -189,10 +189,10 @@ compliant returns in adherence to`,
 
       {/* Why choose us? */}
       <AppWrapper className="py-15">
-        <p className="text-[30px] text-custom-blue text-center font-bold">
-          Why choose us?{" "}
+        <p className="text-[50px] text-custom-blue text-center font-bold">
+          Why Choose Us{" "}
         </p>
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-5 pt-5">
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-5 pt-12">
           {qualities.map((item) => (
             <ServicesQualitiesCard item={item} />
           ))}
@@ -202,10 +202,10 @@ compliant returns in adherence to`,
       {/* Our Portfolio Offerings */}
       <AppWrapper wrapperbgcolor="bg-custom-white" className="py-15">
         <div className="text-center">
-          <p className="text-[30px] text-custom-blue font-bold">
+          <p className="text-[50px] text-custom-blue font-bold">
             Our Portfolio Offerings
           </p>
-          <p className="text-[14px] text-custom-grey">
+          <p className="text-[16px] text-custom-grey">
             We offer a range of professionally managed portfolios to match
             different investment objectives, risk tolerances, and time horizons.
           </p>
@@ -221,30 +221,34 @@ compliant returns in adherence to`,
       <AppWrapper className="my-15">
         <div className="flex flex-col items-center">
           <div
-            className="w-full h-full p-5 sm:w-[45vw] sm:h-80 sm:p-10 bg-cover bg-center flex flex-col items-center justify-center rounded-lg"
+            className="w-full h-full p-5 sm:w-[60vw] sm:h-100 sm:p-10 bg-cover bg-center flex flex-col items-center justify-center rounded-lg"
             style={{ backgroundImage: `url(${image9})` }}
           >
-            <p className="text-[30px] text-center text-white font-bold pb-2">
-              Why Invest with Smooth Capital?
-            </p>
-
             <div>
-              {whyInvestInWithSmoothCapital.map((item) => (
-                <div className="flex items-start gap-2 pb-2">
-                  <BsCheck2Circle color="white" className="mt-1"/>
+              <p className="text-[40px] text-center text-white font-bold pb-2">
+                Why Invest with Smooth Capital?
+              </p>
 
-                  <div>
-                    <p className="text-[16px] text-white font-bold">
-                      {item.reason}
-                    </p>
-                    <p className="text-[14px] text-white">{item.description}</p>
+              <div>
+                {whyInvestInWithSmoothCapital.map((item) => (
+                  <div className="flex items-start gap-2 pb-2">
+                    <BsCheck2Circle color="white" className="mt-1" />
+
+                    <div>
+                      <p className="text-[20px] text-white font-medium">
+                        {item.reason}
+                      </p>
+                      <p className="text-[14px] text-white">
+                        {item.description}
+                      </p>
+                    </div>
                   </div>
-                </div>
-              ))}
+                ))}
+              </div>
             </div>
           </div>
 
-          <span className="text-[14px] pt-5 text-center">
+          <span className="text-[16px] pt-5 text-center">
             Take control of your investments with Smooth Capital's expertly
             managed portfolios.
           </span>
@@ -254,10 +258,10 @@ compliant returns in adherence to`,
       {/* Our Investment Process */}
       <AppWrapper wrapperbgcolor="bg-custom-white" className="py-15">
         <div className="text-center">
-          <p className="text-[30px] text-custom-blue">
+          <p className="text-[50px] text-custom-blue">
             Our <span className="font-bold">Investment Process</span>
           </p>
-          <p className="text-[14px] text-custom-grey">
+          <p className="text-[16px] text-custom-grey">
             We follow a disciplined, four-step approach to managing your
             portfolio.
           </p>
