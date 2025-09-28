@@ -40,7 +40,7 @@ const MenuNavbar = ({ isOpen, closeModal }: MenuNavbarProps) => {
           to="/"
           className={({ isActive }) =>
             `flex justify-between items-center py-2 border-b border-custom-semi-white ${
-              isActive ? "text-custom-purple font-bold" : "text-black"
+              isActive ? "text-custom-blue font-bold" : "text-black"
             }`
           }
           onClick={closeModal}
@@ -56,7 +56,7 @@ const MenuNavbar = ({ isOpen, closeModal }: MenuNavbarProps) => {
             }
             className={`flex justify-between items-center w-full py-2 border-b border-custom-semi-white ${
               openDropdown === "about"
-                ? "text-custom-purple font-bold"
+                ? "text-custom-blue font-bold"
                 : "text-black font-medium"
             }`}
           >
@@ -76,21 +76,21 @@ const MenuNavbar = ({ isOpen, closeModal }: MenuNavbarProps) => {
             <div className="flex flex-col pl-2 text-sm">
               <NavLink
                 to="/about-us/company-profile"
-                className="py-2 hover:text-custom-purple"
+                className="py-2 hover:text-custom-blue"
                 onClick={closeModal}
               >
                 Company Profile
               </NavLink>
               <NavLink
                 to="/about-us/our-teams"
-                className="py-2 hover:text-custom-purple"
+                className="py-2 hover:text-custom-blue"
                 onClick={closeModal}
               >
                 Our Teams
               </NavLink>
               <NavLink
                 to="/about-us/careers"
-                className="py-2 hover:text-custom-purple"
+                className="py-2 hover:text-custom-blue"
                 onClick={closeModal}
               >
                 Careers
@@ -107,7 +107,7 @@ const MenuNavbar = ({ isOpen, closeModal }: MenuNavbarProps) => {
             }
             className={`flex justify-between items-center w-full py-2 border-b border-custom-semi-white ${
               openDropdown === "services"
-                ? "text-custom-purple font-bold"
+                ? "text-custom-blue font-bold"
                 : "text-black font-medium"
             }`}
           >
@@ -127,35 +127,35 @@ const MenuNavbar = ({ isOpen, closeModal }: MenuNavbarProps) => {
             <div className="flex flex-col pl-2 text-sm">
               <NavLink
                 to="/services/funds-portfolio-management"
-                className="py-2 hover:text-custom-purple"
+                className="py-2 hover:text-custom-blue"
                 onClick={closeModal}
               >
                 Funds & Portfolio Management
               </NavLink>
               <NavLink
                 to="/services/business-incubation"
-                className="py-2 hover:text-custom-purple"
+                className="py-2 hover:text-custom-blue"
                 onClick={closeModal}
               >
                 Business Incubation
               </NavLink>
               <NavLink
                 to="/services/debit-capital-advisory"
-                className="py-2 hover:text-custom-purple"
+                className="py-2 hover:text-custom-blue"
                 onClick={closeModal}
               >
                 Debit Capital Advisory
               </NavLink>
               <NavLink
                 to="/services/bancassurance"
-                className="py-2 hover:text-custom-purple"
+                className="py-2 hover:text-custom-blue"
                 onClick={closeModal}
               >
                 Bancassurance
               </NavLink>
               <NavLink
                 to="/services/wealth-advisory"
-                className="py-2 hover:text-custom-purple"
+                className="py-2 hover:text-custom-blue"
                 onClick={closeModal}
               >
                 Wealth Advisory
