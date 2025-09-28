@@ -31,7 +31,7 @@ const Navbar = () => {
               `text-black cursor-pointer text-[14px]
               ${
                 isActive
-                  ? "text-custom-purple font-bold" // active style
+                  ? "text-custom-blue font-bold" // active style
                   : "text-black" // inactive style
               }`
             }
@@ -45,7 +45,7 @@ const Navbar = () => {
               className={`flex items-center gap-1 cursor-pointer text-[14px]
               ${
                 isAboutUsActive
-                  ? "text-custom-purple font-bold" // active style
+                  ? "text-custom-blue font-bold" // active style
                   : "text-black" // inactive style
               }`}
             >
@@ -53,7 +53,7 @@ const Navbar = () => {
               <BsChevronDown
                 size={15}
                 className={`transform transition-transform duration-300 
-                  ${isAboutUsActive ? "text-custom-purple" : "text-black"} 
+                  ${isAboutUsActive ? "text-custom-blue" : "text-black"} 
                   group-hover:rotate-180`}
               />
             </div>
@@ -87,7 +87,7 @@ const Navbar = () => {
               className={`flex items-center gap-1 cursor-pointer text-[14px]
               ${
                 isServicesActive
-                  ? "text-custom-purple font-bold" // active style
+                  ? "text-custom-blue font-bold" // active style
                   : "text-black" // inactive style
               }`}
             >
@@ -95,7 +95,7 @@ const Navbar = () => {
               <BsChevronDown
                 size={15}
                 className={`transform transition-transform duration-300 
-                  ${isServicesActive ? "text-custom-purple" : "text-black"} 
+                  ${isServicesActive ? "text-custom-blue" : "text-black"} 
                   group-hover:rotate-180`}
               />
             </div>
@@ -145,7 +145,7 @@ const Navbar = () => {
             fontSize={12}
             fontWeight={600}
             textColor={"white"}
-            borderRadius={"10px"}
+            borderRadius={"20px"}
             onClick={() => navigate("/addosser-ecosystem")}
           />
         </div>

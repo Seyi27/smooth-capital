@@ -223,10 +223,10 @@ triple their customer base within 18 months.`,
       {/* Our Services */}
       <AppWrapper wrapperbgcolor="bg-custom-white" className="py-15">
         <div className="text-center">
-          <p className="text-[50px] text-custom-purple font-bold">
+          <p className="text-[35px] sm:text-[50px] text-custom-purple font-bold">
             Our Services
           </p>
-          <p className="text-[16px] text-custom-grey">
+          <p className="text-[14px] sm:text-[16px] text-custom-grey">
             We offer a comprehensive range of debt capital advisory services to
             address diverse financing needs.
           </p>
@@ -242,10 +242,10 @@ triple their customer base within 18 months.`,
       {/* Success Stories */}
       <AppWrapper className="py-15">
         <div className="text-center">
-          <p className="text-[50px] text-custom-purple font-bold">
+          <p className="text-[35px] sm:text-[50px] text-custom-purple font-bold">
             Success Stories{" "}
           </p>
-          <p className="text-[16px] text-custom-grey">
+          <p className="text-[14px] sm:text-[16px] text-custom-grey">
             Explore how we've helped businesses across sectors secure optimal
             financing solutions.
           </p>
@@ -261,10 +261,10 @@ triple their customer base within 18 months.`,
       {/* Our Advisory Process */}
       <AppWrapper wrapperbgcolor="bg-custom-white" className="py-15">
         <div className="text-center">
-          <p className="text-[50px] text-custom-blue">
+          <p className="text-[35px] sm:text-[50px] text-custom-blue">
             Our <span className="font-bold">Advisory Process</span>
           </p>
-          <p className="text-[16px] text-custom-grey">
+          <p className="text-[14px] sm:text-[16px] text-custom-grey">
             We follow a disciplined, four-step approach to managing your
             portfolio.
           </p>

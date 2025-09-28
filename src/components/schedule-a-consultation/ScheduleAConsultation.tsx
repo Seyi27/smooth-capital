@@ -15,8 +15,8 @@ const ScheduleAConsultation = ({
         className="w-full sm:w-220 h-100 p-10 bg-cover bg-center flex flex-col items-center justify-center rounded-[25px]"
         style={{ backgroundImage: `url(${image})` }}
       >
-        <p className="text-[40px] text-center text-white font-bold">{title}</p>
-        <p className="text-[16px] text-white text-center pb-3">{body}</p>
+        <p className="text-[25px] sm:text-[35px] text-center text-white font-bold">{title}</p>
+        <p className="text-[14px] sm:text-[16px] text-white text-center pb-3">{body}</p>
         <CustomButton
           label={buttonName}
           width={"200px"}

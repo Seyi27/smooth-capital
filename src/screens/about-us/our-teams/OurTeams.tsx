@@ -133,7 +133,7 @@ A firm believer in building wealth through smart, strategic investing, Kayode is
               <span className="text-[14px] font-bold p-2 border-1 border-custom-grey rounded-[30px]">
                 Our Team
               </span>
-              <p className="text-[100px] font-bold">Team</p>
+              <p className="text-[50px] sm:text-[100px] font-medium py-5">Team</p>
 
               <p className="text-custom-grey text-[14px] leading-5">
                 Meet the dedicated professionals who power our investment
@@ -148,10 +148,10 @@ A firm believer in building wealth through smart, strategic investing, Kayode is
 
       {/* The People Behind Our Success */}
       <AppWrapper wrapperbgcolor="bg-custom-light-purple" className="py-15">
-        <p className="text-[50px] text-center font-medium">
+        <p className="text-[35px] sm:text-[50px] text-center font-medium">
           The People Behind Our Success
         </p>
-        <p className="text-[35px] text-center font-medium">
+        <p className="text-[25px] sm:text-[35px] text-center font-medium pt-2 sm:pt-0">
           Board of Directors
         </p>
 
@@ -165,9 +165,9 @@ A firm believer in building wealth through smart, strategic investing, Kayode is
 
       {/* Management Team */}
       <AppWrapper className="my-10">
-        <p className="text-[50px] text-center font-medium">Management Team</p>
+        <p className="text-[35px] sm:text-[50px] text-center font-medium">Management Team</p>
 
-        <div className="py-10">
+        <div className="py-5 sm:py-10">
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-10">
             {teamManagement.map((item) => (
               <TeamManagementCard item={item} />

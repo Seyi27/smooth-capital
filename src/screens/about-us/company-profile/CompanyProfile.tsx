@@ -93,7 +93,7 @@ const CompanyProfile = () => {
               <span className="text-[14px] font-bold p-2 border-1 border-custom-grey rounded-[30px]">
                 Company Profile
               </span>
-              <p className="text-[70px] font-bold">About Smooth Capital</p>
+              <p className="text-[45px] sm:text-[70px] font-medium py-5">About Smooth Capital</p>
 
               <p className="text-custom-grey text-[14px] leading-5">
                 Smooth Capital Limited ("Smooth Capital" or "the Company") was

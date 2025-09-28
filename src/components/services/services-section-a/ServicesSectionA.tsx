@@ -12,12 +12,12 @@ const ServicesSectionA = ({
       className="w-full sm:w-[80vw] flex flex-col justify-self-center"
     >
       <div className="flex flex-col sm:flex-row sm:items-center justify-center gap-7">
-        <div className="flex-1 text-[55px] font-medium">
-          <p className="">{topText}</p>
-          <span className="text-white bg-custom-blue pb-3 rounded-lg">{bottomText}</span>
+        <div className="flex-1 font-medium">
+          <p className="text-[40px] sm:text-[50px]">{topText}</p>
+          <span className="text-[30px] sm:text-[50px] text-white bg-custom-blue pb-3 rounded-lg">{bottomText}</span>
         </div>
 
-        <p className="flex-1 text-[20px] text-custom-grey">{sideText}</p>
+        <p className="flex-1 text-[16px] sm:text-[20px] text-custom-grey">{sideText}</p>
       </div>
 
       <div className="flex flex-col sm:flex-row items-center justify-center mt-10 gap-5">

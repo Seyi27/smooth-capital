@@ -5,7 +5,7 @@ const SuccessStoriesCard = ({ item }: SuccessStoriesCardProps) => {
     <div>
       <p className="text-custom-purple text-[16px] font-medium">{item.title}</p>
 
-      <span className="text-custom-grey text-[15px]">{item.description}</span>
+      <span className="text-custom-grey text-[14px]">{item.description}</span>
 
       <p className="text-[14px] pt-3 pb-2">The Challenge</p>
       <p className="text-custom-grey text-[14px]">{item.challenge}</p>

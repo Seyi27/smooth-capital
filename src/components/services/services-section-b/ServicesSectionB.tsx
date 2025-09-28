@@ -12,7 +12,7 @@ const ServicesSectionB = ({
       <img src={image1} className="" />
 
       <div className="w-full h-full">
-        <p className="text-[50px] leading-15 font-medium mb-2">{headerText}</p>
+        <p className="text-[40px] sm:text-[50px] leading-12 sm:leading-15 font-medium mb-2">{headerText}</p>
         <span className="text-[16px] text-custom-grey">{topText}</span>
 
         <div className="flex flex-col sm:w-full sm:flex-row pt-5 gap-5">

@@ -169,8 +169,8 @@ growth, provide expertise, and open doors to new opportunities.`,
       {/* Our Services */}
       <AppWrapper wrapperbgcolor="bg-custom-white" className="py-15">
         <div className="text-center">
-          <p className="text-[50px] text-custom-blue font-bold">Our Services</p>
-          <p className="text-[16px] text-custom-grey">
+          <p className="text-[35px] sm:text-[50px] text-custom-blue font-bold">Our Services</p>
+          <p className="text-[14px] sm:text-[16px] text-custom-grey">
             We provide comprehensive support across all aspects of business
             development and growth.
           </p>
@@ -186,10 +186,10 @@ growth, provide expertise, and open doors to new opportunities.`,
       {/* Our Investment Criteria */}
       <AppWrapper className="py-15">
         <div className="flex flex-col items-center">
-          <p className="text-[50px] text-custom-purple font-bold">
+          <p className="text-[25px] sm:text-[50px] text-custom-purple font-bold">
             Our Investment Criteria
           </p>
-          <p className="text-[16px] text-custom-grey">
+          <p className="text-[14px] sm:text-[16px] text-custom-grey">
             We look for specific qualities in the businesses we support and
             invest in.
           </p>
@@ -202,7 +202,7 @@ growth, provide expertise, and open doors to new opportunities.`,
               {investmentCriteria.map((item) => (
                 <div className="flex items-start gap-2 mb-2">
                   <BsCheck2Circle size={20} className="text-custom-blue" />
-                  <p className="text-custom-dark text-[14px]">{item}</p>
+                  <p className="text-custom-dark text-[13px] sm:text-[14px]">{item}</p>
                 </div>
               ))}
             </div>

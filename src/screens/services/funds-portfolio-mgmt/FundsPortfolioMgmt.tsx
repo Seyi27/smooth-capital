@@ -189,10 +189,10 @@ compliant returns in adherence to`,
 
       {/* Why choose us? */}
       <AppWrapper className="py-15">
-        <p className="text-[50px] text-custom-blue text-center font-bold">
+        <p className="text-[35px] sm:text-[50px] text-custom-blue text-center font-bold">
           Why Choose Us{" "}
         </p>
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-5 pt-12">
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-5 pt-5">
           {qualities.map((item) => (
             <ServicesQualitiesCard item={item} />
           ))}
@@ -202,10 +202,10 @@ compliant returns in adherence to`,
       {/* Our Portfolio Offerings */}
       <AppWrapper wrapperbgcolor="bg-custom-white" className="py-15">
         <div className="text-center">
-          <p className="text-[50px] text-custom-blue font-bold">
+          <p className="text-[35px] sm:text-[50px] text-custom-blue font-bold">
             Our Portfolio Offerings
           </p>
-          <p className="text-[16px] text-custom-grey">
+          <p className="text-[14px] sm:text-[16px] text-custom-grey">
             We offer a range of professionally managed portfolios to match
             different investment objectives, risk tolerances, and time horizons.
           </p>
@@ -225,7 +225,7 @@ compliant returns in adherence to`,
             style={{ backgroundImage: `url(${image9})` }}
           >
             <div>
-              <p className="text-[40px] text-center text-white font-bold pb-2">
+              <p className="text-[30px] sm:text-[40px] text-center text-white font-bold pb-2">
                 Why Invest with Smooth Capital?
               </p>
 
@@ -235,10 +235,10 @@ compliant returns in adherence to`,
                     <BsCheck2Circle color="white" className="mt-1" />
 
                     <div>
-                      <p className="text-[20px] text-white font-medium">
+                      <p className="text-[16px] sm:text-[20px] text-white font-medium">
                         {item.reason}
                       </p>
-                      <p className="text-[14px] text-white">
+                      <p className="text-[12px] sm:text-[14px] text-white">
                         {item.description}
                       </p>
                     </div>
@@ -258,10 +258,10 @@ compliant returns in adherence to`,
       {/* Our Investment Process */}
       <AppWrapper wrapperbgcolor="bg-custom-white" className="py-15">
         <div className="text-center">
-          <p className="text-[50px] text-custom-blue">
+          <p className="text-[35px] sm:text-[50px] text-custom-blue">
             Our <span className="font-bold">Investment Process</span>
           </p>
-          <p className="text-[16px] text-custom-grey">
+          <p className="text-[14px] sm:text-[16px] text-custom-grey">
             We follow a disciplined, four-step approach to managing your
             portfolio.
           </p>

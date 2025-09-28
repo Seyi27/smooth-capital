@@ -113,10 +113,10 @@ const Home = () => {
       >
         <AppWrapper>
           <div className="w-full flex flex-col justify-self-center">
-            <div className="flex flex-col sm:flex-row sm:items-center justify-center gap-10">
+            <div className="flex flex-col sm:flex-row sm:items-center justify-center gap-10 w-full">
               <div className="flex-1 font-medium">
-                <p className="text-[57px]">Wealth Management</p>
-                <span className="text-white text-[80px] bg-custom-blue rounded-sm">
+                <p className="text-[40px] sm:text-[57px]">Wealth Management</p>
+                <span className="text-[60px] text-white sm:text-[80px] bg-custom-blue rounded-sm">
                   Redefined
                 </span>
               </div>

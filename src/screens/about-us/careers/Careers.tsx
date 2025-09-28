@@ -51,7 +51,7 @@ const Careers = () => {
               <span className="text-[14px] font-bold p-2 border-1 border-custom-grey rounded-[30px]">
                 Careers
               </span>
-              <p className="text-[60px] py-5 font-bold">Join Our Teams</p>
+              <p className="text-[40px] sm:text-[60px] py-5 font-medium">Join Our Teams</p>
 
               <p className="text-custom-grey text-[14px] leading-5">
                 Build your career at Smooth Capital and help shape the future of
@@ -110,9 +110,9 @@ const Careers = () => {
       <AppWrapper wrapperbgcolor="bg-custom-white" className="py-15">
         <div className="grid grid-cols-1 gap-10 sm:grid-cols-2 items-center">
           <div>
-            <p className="text-[45px] font-bold">Current Openings</p>
+            <p className="text-[35px] sm:text-[45px] font-bold">Current Openings</p>
 
-            <p className="text-[12px] text-custom-grey font-medium pb-5">
+            <p className="text-[12px] text-custom-grey font-medium py-3">
               We don't have any open positions at the moment, but we're always
               on the lookout for exceptional talent. Please feel free to submit
               your resume for future consideration.
