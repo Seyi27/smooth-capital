@@ -1,9 +1,18 @@
 import type { AppWrapperProps } from "../../types/appTypes";
 
-const AppWrapper = ({ wrapperbgcolor, className, children }: AppWrapperProps) => {
+const AppWrapper = ({
+  wrapperbgcolor,
+  className,
+  children,
+}: AppWrapperProps) => {
   return (
-    <div className={`flex justify-center bg-[${wrapperbgcolor}]`}>
-      <div className={`w-full px-5 sm:max-w-[95vw] ${className}`}>{children}</div>
+    <div
+      className={`flex justify-center`}
+      style={{ backgroundColor: wrapperbgcolor }}
+    >
+      <div className={`w-full px-5 sm:max-w-[95vw] ${className}`}>
+        {children}
+      </div>
     </div>
   );
 };
